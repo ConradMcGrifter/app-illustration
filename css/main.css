@@ -68,9 +68,9 @@ body {
 @media only screen and (min-width: 1100px) {
   .wrap .top-background-piece {
     border-radius: 0 0 999px 999px;
-    left: -14rem;
-    height: 85%;
-    width: 50rem;
+    left: -18rem;
+    height: 87%;
+    width: 53rem;
   }
 }
 
@@ -88,9 +88,9 @@ body {
 @media only screen and (min-width: 1100px) {
   .wrap .bottom-background-piece {
     border-radius: 999px 999px 0 0;
-    right: -14rem;
+    right: -17rem;
     height: 85%;
-    width: 50rem;
+    width: 53rem;
   }
 }
 
@@ -161,11 +161,9 @@ body {
 }
 
 .phone {
-  min-height: 55rem;
+  min-height: 57rem;
   background: white;
-  width: 100%;
-  max-width: 28rem;
-  min-width: 28rem;
+  width: 28rem;
   border-radius: 4rem;
   position: relative;
   -webkit-box-shadow: 0 15px 20px rgba(56, 56, 56, 0.212);

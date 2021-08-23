@@ -27,9 +27,9 @@
 
         @include desktopSize {
             border-radius: 0 0 999px 999px;
-            left: -14rem;
-            height: 85%;
-            width: 50rem;
+            left: -18rem;
+            height: 87%;
+            width: 53rem;
         }
     }
 
@@ -49,9 +49,9 @@
 
         @include desktopSize {
             border-radius: 999px 999px 0 0;
-            right: -14rem;
+            right: -17rem;
             height: 85%;
-            width: 50rem;
+            width: 53rem;
         }
     }
 }
