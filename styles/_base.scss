@@ -12,10 +12,11 @@ html {
 }
 
 body {
-    padding: $padding;
     min-height: 100%;
     font-size: 1.6rem;
-    @include flexCenter(row);
+    display: flex;
     font-family: $font-stack;
     background: color(secondary--app-background);
+    justify-content: center;
+    overflow-x: hidden;
 }

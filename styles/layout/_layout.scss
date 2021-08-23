@@ -1,11 +1,72 @@
-.content--container {
+.wrap {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100%;
+    padding: 3rem;
     @include flexCenter;
-    flex-wrap: wrap;
+
+    .top-background-piece {
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(
+                to bottom,
+                hsl(293, 100%, 63%),
+                hsl(264, 100%, 61%)
+            )
+            no-repeat;
+        border-radius: 0 0 999px 0;
+
+        @include desktopSize {
+            border-radius: 0 0 999px 999px;
+            left: -37rem;
+            height: 90%;
+            width: 74rem;
+        }
+    }
+
+    .bottom-background-piece {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(
+                to bottom,
+                hsla(293, 100%, 63%, 0.05),
+                hsla(264, 100%, 61%, 0.05)
+            )
+            no-repeat;
+        border-radius: 999px 0 0 0;
+
+        @include desktopSize {
+            border-radius: 999px 999px 0 0;
+            height: 90%;
+            width: 74rem;
+            right: -37rem;
+        }
+    }
+}
+
+.content--container {
+    @include flexCenter(column);
+
+    @include desktopSize {
+        @include flexCenter(row);
+    }
 }
 
 .info__wrap {
     text-align: center;
     margin-top: 6rem;
+
+    @include desktopSize {
+        margin-left: 15rem;
+        text-align: start;
+    }
 
     .info__h1 {
         font-size: 4rem;
@@ -18,5 +79,10 @@
         line-height: 1.6;
         max-width: 30ch;
         color: color(text--paragraph);
+        font-weight: 500;
+
+        @include desktopSize {
+            max-width: 45ch;
+        }
     }
 }
