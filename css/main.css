@@ -62,9 +62,9 @@ body {
 @media only screen and (min-width: 950px) {
   .wrap .top-background-piece {
     border-radius: 0 0 999px 999px;
-    left: -37rem;
-    height: 90%;
-    width: 74rem;
+    left: -10rem;
+    height: 85%;
+    width: 45rem;
   }
 }
 
@@ -82,9 +82,9 @@ body {
 @media only screen and (min-width: 950px) {
   .wrap .bottom-background-piece {
     border-radius: 999px 999px 0 0;
-    height: 90%;
-    width: 74rem;
-    right: -37rem;
+    right: -10rem;
+    height: 85%;
+    width: 45rem;
   }
 }
 
@@ -129,7 +129,7 @@ body {
 
 @media only screen and (min-width: 950px) {
   .info__wrap {
-    margin-left: 15rem;
+    margin-left: 12rem;
     text-align: start;
   }
 }
@@ -155,7 +155,7 @@ body {
 }
 
 .phone {
-  min-height: 57rem;
+  min-height: 55rem;
   background: white;
   width: 100%;
   max-width: 28rem;
