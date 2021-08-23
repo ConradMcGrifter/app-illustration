@@ -1,0 +1,22 @@
+.content--container {
+    @include flexCenter;
+    flex-wrap: wrap;
+}
+
+.info__wrap {
+    text-align: center;
+    margin-top: 6rem;
+
+    .info__h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        color: color(text--main-heading);
+    }
+
+    .info__p {
+        margin: 2rem auto 0 auto;
+        line-height: 1.6;
+        max-width: 30ch;
+        color: color(text--paragraph);
+    }
+}

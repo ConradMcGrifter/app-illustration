@@ -4,6 +4,13 @@
     }
 }
 
+@mixin flexCenter($direction: row) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
 @mixin linearGradientToRight {
     background: linear-gradient(
             to right,
@@ -39,3 +46,5 @@ $colors: (
 }
 
 $padding: 2em;
+$border-radius: 4rem;
+$font-stack: "Rubik", sans-serif;

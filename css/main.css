@@ -14,7 +14,92 @@ html {
 }
 
 body {
+  padding: 2em;
   min-height: 100%;
   font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Rubik", sans-serif;
+  background: #f5f3f7;
+}
+
+.content--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.info__wrap {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.info__wrap .info__h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #3e2753;
+}
+
+.info__wrap .info__p {
+  margin: 2rem auto 0 auto;
+  line-height: 1.6;
+  max-width: 30ch;
+  color: #a39daa;
+}
+
+.phone {
+  min-height: 55rem;
+  background: white;
+  width: 100%;
+  max-width: 30rem;
+  min-width: 30rem;
+  border-radius: 4rem;
+  position: relative;
+  -webkit-box-shadow: 0 15px 20px rgba(56, 56, 56, 0.212);
+          box-shadow: 0 15px 20px rgba(56, 56, 56, 0.212);
+}
+
+.phone .phone__top-piece {
+  position: absolute;
+  z-index: 1;
+  background: white;
+  border-radius: 999px;
+  width: 14rem;
+  height: 4rem;
+  right: 27%;
+}
+
+.phone .phone__content--wrap {
+  background: #f5f3f7;
+  border-radius: 3rem;
+  position: absolute;
+  z-index: 0;
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

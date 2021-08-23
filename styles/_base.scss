@@ -12,6 +12,10 @@ html {
 }
 
 body {
+    padding: $padding;
     min-height: 100%;
     font-size: 1.6rem;
+    @include flexCenter(row);
+    font-family: $font-stack;
+    background: color(secondary--app-background);
 }
