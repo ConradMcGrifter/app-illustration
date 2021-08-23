@@ -1,12 +1,13 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,KAAK;CACnB;;AAED,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACL,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;EDRjB,UAAU,EAAE,2CAIP,CACD,SAAS;CCKhB",
+    "mappings": "AAAA,OAAO,CAAC,mFAAI;AEAZ,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,KAAK;CACnB;;AAED,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACL,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;CACpB",
     "sources": [
         "../styles/main.scss",
         "../styles/_utils.scss",
         "../styles/_base.scss",
-        "../styles/_layout.scss",
-        "../styles/_components.scss"
+        "../styles/layout/_layout.scss",
+        "../styles/_components.scss",
+        "../styles/layout/_phone.scss"
     ],
     "names": [],
     "file": "main.css"

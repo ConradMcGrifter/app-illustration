@@ -22,4 +22,20 @@
         no-repeat;
 }
 
-$colors: ();
+$colors: (
+    text--sub-heaing: hsl(276, 100%, 81%),
+    text--chat-on-the-left: hsl(276, 55%, 52%),
+    text--chat-on-the-right: hsl(271, 15%, 43%),
+    text--placeholder-text: hsl(206, 6%, 79%),
+    text--main-heading: hsl(271, 36%, 24%),
+    text--paragraph: hsl(270, 7%, 64%),
+    secondary--app-background: hsl(270, 20%, 96%),
+    seconday--submit-button-background: hsl(271, 36%, 24%),
+    secondary--radio-button-outline: hsl(289, 100%, 72%),
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+$padding: 2em;
