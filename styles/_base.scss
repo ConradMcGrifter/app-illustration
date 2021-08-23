@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    font-size: 1.6rem;
+}
