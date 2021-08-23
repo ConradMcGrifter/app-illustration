@@ -1,10 +1,15 @@
 .wrap {
+    // outline: solid red 1px;
     position: relative;
     width: 100%;
     max-width: 1440px;
     min-height: 100%;
     padding: 3rem;
     @include flexCenter;
+
+    @include desktopSize {
+        padding: 0;
+    }
 
     .top-background-piece {
         width: 50%;
@@ -22,9 +27,9 @@
 
         @include desktopSize {
             border-radius: 0 0 999px 999px;
-            left: -10rem;
+            left: -14rem;
             height: 85%;
-            width: 45rem;
+            width: 50rem;
         }
     }
 
@@ -44,9 +49,9 @@
 
         @include desktopSize {
             border-radius: 999px 999px 0 0;
-            right: -10rem;
+            right: -14rem;
             height: 85%;
-            width: 45rem;
+            width: 50rem;
         }
     }
 }
