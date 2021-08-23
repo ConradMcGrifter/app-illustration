@@ -31,6 +31,12 @@
             width: 100%;
             border-radius: $border-radius $border-radius 1rem 1rem;
             @include linearGradientToLeft;
+            opacity: 0;
+            transition: 0.25s;
+
+            &.fade {
+                opacity: 1;
+            }
         }
     }
 }

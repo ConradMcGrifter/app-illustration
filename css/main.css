@@ -197,5 +197,12 @@ body {
   border-radius: 3rem 3rem 1rem 1rem;
   background: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff)) no-repeat;
   background: linear-gradient(to left, #e942ff, #8838ff) no-repeat;
+  opacity: 0;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.phone .phone__content--wrap .content__header.fade {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
