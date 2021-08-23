@@ -1,0 +1,25 @@
+@mixin desktopSize {
+    @media only screen and (min-width: 800px) {
+        @content;
+    }
+}
+
+@mixin linearGradientToRight {
+    background: linear-gradient(
+            to right,
+            hsl(293, 100%, 63%),
+            hsl(264, 100%, 61%)
+        )
+        no-repeat;
+}
+
+@mixin linearGradientToLeft {
+    background: linear-gradient(
+            to left,
+            hsl(293, 100%, 63%),
+            hsl(264, 100%, 61%)
+        )
+        no-repeat;
+}
+
+$colors: ();
