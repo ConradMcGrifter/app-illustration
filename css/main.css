@@ -249,7 +249,7 @@ body {
   height: 2.75rem;
   border-radius: 999px;
   border: solid white 0.2rem;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
 .phone .phone__content--wrap .content__header .header--wrap .header__name--wrap {
@@ -257,12 +257,13 @@ body {
 }
 
 .phone .phone__content--wrap .content__header .header--wrap .header__name--wrap .name__h2 {
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: white;
 }
 
 .phone .phone__content--wrap .content__header .header--wrap .header__name--wrap .name__h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
   margin-top: 0.25rem;
   color: #d89eff;
@@ -307,7 +308,7 @@ body {
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img {
   width: 6rem;
-  border-radius: 1rem;
+  border-radius: 1.4rem;
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img + .dog__img {
