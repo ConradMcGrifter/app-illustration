@@ -41,8 +41,8 @@
         right: 0;
         background: linear-gradient(
                 to bottom,
-                hsla(293, 100%, 63%, 0.05),
-                hsla(264, 100%, 61%, 0.05)
+                hsla(293, 100%, 63%, 0.03),
+                hsla(264, 100%, 61%, 0.03)
             )
             no-repeat;
         border-radius: 999px 0 0 0;
@@ -70,6 +70,7 @@
 
     @include desktopSize {
         margin-left: 12rem;
+        margin-top: 0;
         text-align: start;
     }
 
