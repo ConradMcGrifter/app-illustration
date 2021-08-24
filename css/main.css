@@ -161,10 +161,28 @@ body {
   }
 }
 
+.chat__left-chat {
+  background: #e8d9f7;
+  width: 17ch;
+  padding: 1.25rem;
+  border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+}
+
+.chat__left-chat .left-chat__p {
+  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #9241c8;
+}
+
+.chat__left-chat + .chat__left-chat {
+  margin-top: 1rem;
+}
+
 .phone {
-  min-height: 56rem;
+  min-height: 65rem;
   background: white;
-  width: 29rem;
+  width: 32rem;
   border-radius: 4rem;
   position: relative;
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
@@ -178,7 +196,7 @@ body {
   border-radius: 999px;
   width: 16rem;
   height: 3.5rem;
-  right: 6.5rem;
+  right: 8rem;
 }
 
 .phone .phone__content--wrap {
@@ -273,5 +291,26 @@ body {
 
 .phone .phone__content--wrap .content__header .header--wrap .header__dots .dot + .dot {
   margin-top: 0.25rem;
+}
+
+.phone .phone__content--wrap .content__chat--wrap {
+  padding: 1rem;
+}
+
+.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures {
+  margin-top: 2rem;
+  margin-left: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img {
+  width: 6rem;
+  border-radius: 1rem;
+}
+
+.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img + .dog__img {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 .phone {
-    min-height: 56rem;
+    min-height: 65rem;
     background: white;
-    width: 29rem;
+    width: 32rem;
     border-radius: 4rem;
     position: relative;
     box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
@@ -13,7 +13,7 @@
         border-radius: 999px;
         width: 16rem;
         height: 3.5rem;
-        right: 6.5rem;
+        right: 8rem;
     }
 
     .phone__content--wrap {
@@ -68,7 +68,7 @@
                         font-size: 1rem;
                         color: white;
                         margin-top: 0.25rem;
-                        color: color(text--sub-heaing);
+                        color: color(text--sub-heading);
                     }
                 }
 
@@ -89,6 +89,24 @@
                         & + .dot {
                             margin-top: 0.25rem;
                         }
+                    }
+                }
+            }
+        }
+
+        .content__chat--wrap {
+            padding: 1rem;
+
+            .chat__dog-pictures {
+                margin-top: 2rem;
+                margin-left: auto;
+                width: max-content;
+                .dog__img {
+                    width: 6rem;
+                    border-radius: 1rem;
+
+                    & + .dog__img {
+                        margin-left: 1rem;
                     }
                 }
             }
