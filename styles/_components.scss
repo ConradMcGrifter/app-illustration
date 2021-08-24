@@ -3,16 +3,13 @@
     width: max-content;
     padding: 1rem;
     border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+    margin-top: 1rem;
     .left-chat__p {
         max-width: 22ch;
         line-height: 1.4;
         font-size: 1rem;
         font-weight: 500;
         color: color(text--chat-on-the-left);
-    }
-
-    & + .chat__left-chat {
-        margin-top: 1rem;
     }
 }
 
@@ -34,5 +31,32 @@
         color: color(text--chat-on-the-right);
         display: flex;
         justify-content: flex-end;
+    }
+}
+
+.chat__pricing {
+    max-width: 75%;
+    @include linearGradientToRight;
+    border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+    .pricing__circle {
+        border: solid rgba(255, 255, 255, 0.493) 1px;
+        border-radius: 999px;
+        padding: 0.75rem;
+    }
+
+    .pricing__p {
+        color: white;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .pricing__price {
+        margin-left: auto;
+        color: white;
     }
 }

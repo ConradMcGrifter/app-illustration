@@ -168,6 +168,7 @@ body {
   width: max-content;
   padding: 1rem;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+  margin-top: 1rem;
 }
 
 .chat__left-chat .left-chat__p {
@@ -176,10 +177,6 @@ body {
   font-size: 1rem;
   font-weight: 500;
   color: #9241c8;
-}
-
-.chat__left-chat + .chat__left-chat {
-  margin-top: 1rem;
 }
 
 .chat__right-chat {
@@ -209,6 +206,38 @@ body {
           justify-content: flex-end;
 }
 
+.chat__pricing {
+  max-width: 75%;
+  background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff)) no-repeat;
+  background: linear-gradient(to right, #e942ff, #8838ff) no-repeat;
+  border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat__pricing .pricing__circle {
+  border: solid rgba(255, 255, 255, 0.493) 1px;
+  border-radius: 999px;
+  padding: 0.75rem;
+}
+
+.chat__pricing .pricing__p {
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+
+.chat__pricing .pricing__price {
+  margin-left: auto;
+  color: white;
+}
+
 .phone {
   min-height: 60rem;
   background: white;
@@ -217,6 +246,7 @@ body {
   position: relative;
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
           box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
+  padding: 1.25rem;
 }
 
 .phone .phone__top-piece {
@@ -224,20 +254,15 @@ body {
   z-index: 1;
   background: white;
   border-radius: 999px;
-  width: 16rem;
+  width: 18rem;
   height: 3.5rem;
   right: 7rem;
+  top: 0;
 }
 
 .phone .phone__content--wrap {
   background: #f5f3f7;
   border-radius: 3rem;
-  position: absolute;
-  z-index: 0;
-  top: 1.25rem;
-  right: 1.25rem;
-  bottom: 1.25rem;
-  left: 1.25rem;
 }
 
 .phone .phone__content--wrap .content__header {
@@ -325,7 +350,7 @@ body {
 }
 
 .phone .phone__content--wrap .content__chat--wrap {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures {

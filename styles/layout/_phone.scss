@@ -5,26 +5,29 @@
     border-radius: 4rem;
     position: relative;
     box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
+    padding: 1.25rem;
 
     .phone__top-piece {
         position: absolute;
         z-index: 1;
         background: white;
         border-radius: 999px;
-        width: 16rem;
+        width: 18rem;
         height: 3.5rem;
         right: 7rem;
+        top: 0;
     }
 
     .phone__content--wrap {
         background: color(secondary--app-background);
         border-radius: $border-radius;
-        position: absolute;
-        z-index: 0;
-        top: 1.25rem;
-        right: 1.25rem;
-        bottom: 1.25rem;
-        left: 1.25rem;
+
+        // position: absolute;
+        // z-index: 0;
+        // top: 1.25rem;
+        // right: 1.25rem;
+        // bottom: 1.25rem;
+        // left: 1.25rem;
 
         .content__header {
             height: 8.75rem;
@@ -96,7 +99,7 @@
         }
 
         .content__chat--wrap {
-            padding: 1rem;
+            padding: 0 1rem 1rem 1rem;
 
             .chat__dog-pictures {
                 margin-top: 2rem;
