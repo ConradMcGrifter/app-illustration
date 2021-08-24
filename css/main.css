@@ -69,8 +69,8 @@ body {
   .wrap .top-background-piece {
     border-radius: 0 0 999px 999px;
     left: -18rem;
-    height: 90%;
-    width: 53rem;
+    height: 92%;
+    width: 52.5rem;
   }
 }
 
@@ -89,7 +89,7 @@ body {
   .wrap .bottom-background-piece {
     border-radius: 999px 999px 0 0;
     right: -17rem;
-    height: 90%;
+    height: 92%;
     width: 53rem;
   }
 }
