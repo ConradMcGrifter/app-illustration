@@ -207,7 +207,7 @@ body {
 }
 
 .chat__pricing {
-  max-width: 65%;
+  max-width: 70%;
   background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff)) no-repeat;
   background: linear-gradient(to right, #e942ff, #8838ff) no-repeat;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
@@ -282,7 +282,7 @@ body {
   z-index: 1;
   background: white;
   border-radius: 999px;
-  width: 17rem;
+  width: 16rem;
   height: 3.5rem;
   right: 7.5rem;
   top: 0;
