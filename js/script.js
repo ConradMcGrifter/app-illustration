@@ -4,4 +4,4 @@ const testFunc = () => {
     TEST.classList.toggle("fade");
 };
 
-setTimeout(testFunc, 3000);
+// setTimeout(testFunc, 2000);

@@ -1,7 +1,7 @@
 .phone {
-    min-height: 54rem;
+    min-height: 56rem;
     background: white;
-    width: 28rem;
+    width: 29rem;
     border-radius: 4rem;
     position: relative;
     box-shadow: 0 15px 20px rgba(56, 56, 56, 0.212);
@@ -13,7 +13,7 @@
         border-radius: 999px;
         width: 14rem;
         height: 3.5rem;
-        right: 7rem;
+        right: 7.5rem;
     }
 
     .phone__content--wrap {
@@ -27,15 +27,70 @@
         left: 1.25rem;
 
         .content__header {
-            height: 8rem;
+            height: 8.5rem;
             width: 100%;
             border-radius: $border-radius $border-radius 1rem 1rem;
             @include linearGradientToLeft;
-            opacity: 0;
-            transition: 0.25s;
+            display: flex;
+            align-items: flex-end;
 
-            &.fade {
-                opacity: 1;
+            .header--wrap {
+                outline: solid red 1px;
+                // height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding: 1rem 2rem;
+
+                .arrow {
+                    border: solid rgb(255, 255, 255);
+                    border-width: 0 3px 3px 0;
+                    display: inline-block;
+                    padding: 0.25rem;
+                    transform: rotate(124deg) skew(-25deg);
+                }
+
+                .header__avatar {
+                    width: 2.75rem;
+                    height: 2.75rem;
+                    border-radius: 999px;
+                    border: solid white 0.2rem;
+                    margin-left: 0.5rem;
+                }
+
+                .header__name--wrap {
+                    margin: 0 0 0 1rem;
+
+                    .name__h2 {
+                        font-size: 1.4rem;
+                        color: white;
+                    }
+
+                    .name__p {
+                        font-size: 1.2rem;
+                        color: white;
+                    }
+                }
+
+                .header__dots {
+                    // outline: solid yellow 2px;
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: auto;
+                    .dot {
+                        width: 0.25rem;
+                        height: 0.25rem;
+                        background: white;
+                        border-radius: 999px;
+
+                        & + .dot {
+                            margin-top: 0.25rem;
+                        }
+                    }
+                }
             }
         }
     }
