@@ -175,9 +175,9 @@ body {
   z-index: 1;
   background: white;
   border-radius: 999px;
-  width: 14rem;
+  width: 16rem;
   height: 3.5rem;
-  right: 7.5rem;
+  right: 6.5rem;
 }
 
 .phone .phone__content--wrap {
@@ -192,9 +192,9 @@ body {
 }
 
 .phone .phone__content--wrap .content__header {
-  height: 8.5rem;
+  height: 8.75rem;
   width: 100%;
-  border-radius: 3rem 3rem 1rem 1rem;
+  border-radius: 3rem 3rem 0.5rem 0.5rem;
   background: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff)) no-repeat;
   background: linear-gradient(to left, #e942ff, #8838ff) no-repeat;
   display: -webkit-box;
@@ -206,7 +206,6 @@ body {
 }
 
 .phone .phone__content--wrap .content__header .header--wrap {
-  outline: solid red 1px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,7 +213,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .phone .phone__content--wrap .content__header .header--wrap .arrow {
@@ -243,9 +242,11 @@ body {
   color: white;
 }
 
-.phone .phone__content--wrap .content__header .header--wrap .header__name--wrap .name__p {
-  font-size: 1.2rem;
+.phone .phone__content--wrap .content__header .header--wrap .header__name--wrap .name__h3 {
+  font-size: 1rem;
   color: white;
+  margin-top: 0.25rem;
+  color: #d89eff;
 }
 
 .phone .phone__content--wrap .content__header .header--wrap .header__dots {
