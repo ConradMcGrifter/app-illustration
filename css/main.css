@@ -207,7 +207,7 @@ body {
 }
 
 .chat__pricing {
-  max-width: 75%;
+  max-width: 65%;
   background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff)) no-repeat;
   background: linear-gradient(to right, #e942ff, #8838ff) no-repeat;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
@@ -230,18 +230,46 @@ body {
 .chat__pricing .pricing__p {
   color: white;
   margin-left: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .chat__pricing .pricing__price {
   margin-left: auto;
+  margin-right: 1rem;
   color: white;
+}
+
+.chat__type-input {
+  margin-top: 2rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat__type-input .type-input__placeholder {
+  font-size: 1.2rem;
+  color: #a39daa;
+  margin-left: 2rem;
+}
+
+.chat__type-input .type-input__send-icon {
+  margin-left: auto;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 999px;
+  background: #3e2753;
 }
 
 .phone {
   min-height: 60rem;
   background: white;
-  width: 30rem;
+  width: 28rem;
   border-radius: 4rem;
   position: relative;
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
@@ -254,9 +282,9 @@ body {
   z-index: 1;
   background: white;
   border-radius: 999px;
-  width: 18rem;
+  width: 17rem;
   height: 3.5rem;
-  right: 7rem;
+  right: 7.5rem;
   top: 0;
 }
 

@@ -35,7 +35,7 @@
 }
 
 .chat__pricing {
-    max-width: 75%;
+    max-width: 65%;
     @include linearGradientToRight;
     border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
     padding: 1rem;
@@ -52,11 +52,36 @@
     .pricing__p {
         color: white;
         margin-left: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .pricing__price {
         margin-left: auto;
+        margin-right: 1rem;
         color: white;
+    }
+}
+
+.chat__type-input {
+    margin-top: 2rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 999px;
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+
+    .type-input__placeholder {
+        font-size: 1.2rem;
+        color: color(text--paragraph);
+        margin-left: 2rem;
+    }
+
+    .type-input__send-icon {
+        margin-left: auto;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 999px;
+        background: color(text--main-heading);
     }
 }
