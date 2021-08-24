@@ -163,14 +163,17 @@ body {
 
 .chat__left-chat {
   background: #e8d9f7;
-  width: 17ch;
-  padding: 1.25rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 1rem;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
 }
 
 .chat__left-chat .left-chat__p {
+  max-width: 22ch;
   line-height: 1.4;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #9241c8;
 }
@@ -179,10 +182,37 @@ body {
   margin-top: 1rem;
 }
 
-.phone {
-  min-height: 65rem;
+.chat__right-chat {
   background: white;
-  width: 32rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
+  margin-left: auto;
+  -webkit-box-shadow: 0 10px 10px rgba(37, 37, 37, 0.055);
+          box-shadow: 0 10px 10px rgba(37, 37, 37, 0.055);
+  margin-top: 1rem;
+}
+
+.chat__right-chat .right-chat__p {
+  max-width: 22ch;
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6e5d7e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.phone {
+  min-height: 60rem;
+  background: white;
+  width: 30rem;
   border-radius: 4rem;
   position: relative;
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
@@ -196,7 +226,7 @@ body {
   border-radius: 999px;
   width: 16rem;
   height: 3.5rem;
-  right: 8rem;
+  right: 7rem;
 }
 
 .phone .phone__content--wrap {
@@ -307,8 +337,8 @@ body {
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img {
-  width: 6rem;
-  border-radius: 1.4rem;
+  width: 5rem;
+  border-radius: 1.2rem;
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img + .dog__img {
