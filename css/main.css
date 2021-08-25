@@ -68,9 +68,9 @@ body {
 @media only screen and (min-width: 1100px) {
   .wrap .top-background-piece {
     border-radius: 0 0 999px 999px;
-    left: -18rem;
+    left: -14.5rem;
     height: 92%;
-    width: 52.5rem;
+    width: 50rem;
   }
 }
 
@@ -88,9 +88,9 @@ body {
 @media only screen and (min-width: 1100px) {
   .wrap .bottom-background-piece {
     border-radius: 999px 999px 0 0;
-    right: -17rem;
+    right: -15.5rem;
     height: 92%;
-    width: 53rem;
+    width: 50rem;
   }
 }
 
@@ -161,49 +161,44 @@ body {
   }
 }
 
-.chat__left-chat {
-  background: #e8d9f7;
+.shared-chat-styles {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding: 1rem;
-  border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
   margin-top: 1rem;
 }
 
-.chat__left-chat .left-chat__p {
+.shared-chat-styles .shared-text-styles {
   max-width: 22ch;
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.chat__left-chat {
+  background: #e8d9f7;
+  border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
+}
+
+.chat__left-chat.extra-margin {
+  margin-top: 2rem;
+}
+
+.chat__left-chat .left-chat__p {
   color: #9241c8;
 }
 
 .chat__right-chat {
   background: white;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  padding: 1rem;
   border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
   margin-left: auto;
   -webkit-box-shadow: 0 10px 10px rgba(37, 37, 37, 0.055);
           box-shadow: 0 10px 10px rgba(37, 37, 37, 0.055);
-  margin-top: 1rem;
 }
 
 .chat__right-chat .right-chat__p {
-  max-width: 22ch;
-  line-height: 1.4;
-  font-size: 1rem;
-  font-weight: 500;
   color: #6e5d7e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .chat__pricing {
@@ -267,9 +262,11 @@ body {
 }
 
 .phone {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
   min-height: 60rem;
   background: white;
-  width: 28rem;
+  width: 29rem;
   border-radius: 4rem;
   position: relative;
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
@@ -284,7 +281,7 @@ body {
   border-radius: 999px;
   width: 16rem;
   height: 3.5rem;
-  right: 7.5rem;
+  right: 7.25rem;
   top: 0;
 }
 
