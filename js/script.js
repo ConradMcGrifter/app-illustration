@@ -10,6 +10,7 @@ const RIGHT2 = document.getElementById("right-2");
 const PRICING1 = document.getElementById("pricing-1");
 const PRICING2 = document.getElementById("pricing-2");
 const PHONE = document.querySelector(".phone");
+const TINT = document.querySelector(".darken");
 
 const displayMessage = (element, className) => {
     element.classList.toggle(className);
@@ -20,7 +21,7 @@ const phoneSize = (className) => {
 };
 
 const tintControl = (className) => {
-    document.querySelector(".darken").classList.toggle(className);
+    TINT.classList.toggle(className);
 };
 
 setTimeout(tintControl, 1000, "fadeIn");
