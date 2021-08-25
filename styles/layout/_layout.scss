@@ -6,6 +6,8 @@
     padding: 3rem;
     @include flexCenter;
 
+    animation: fadeIn 0.75s;
+
     .top-background-piece {
         width: 50%;
         height: 60%;
