@@ -82,7 +82,7 @@
 .chat__type-input {
     margin-top: auto;
     background: white;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border-radius: 999px;
     display: flex;
     // justify-content: space-around;
@@ -92,6 +92,7 @@
         font-size: 1.2rem;
         color: color(text--paragraph);
         margin-left: 2rem;
+        font-weight: 500;
     }
 
     .type-input__send-icon {
@@ -100,6 +101,17 @@
         width: 3rem;
         border-radius: 999px;
         background: color(text--main-heading);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .arrow {
+            border: solid rgb(255, 255, 255);
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 0.3rem;
+            transform: rotate(-45deg);
+        }
     }
 }
 
