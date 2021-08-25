@@ -9,11 +9,17 @@ const RIGHT1 = document.getElementById("right-1");
 const RIGHT2 = document.getElementById("right-2");
 const PRICING1 = document.getElementById("pricing-1");
 const PRICING2 = document.getElementById("pricing-2");
+const PHONE = document.querySelector(".phone");
 
 const displayMessage = (element, className) => {
     element.classList.toggle(className);
 };
 
+const phoneSize = (className) => {
+    PHONE.classList.toggle(className);
+};
+
+setTimeout(phoneSize, 1000, "scaleUp");
 setTimeout(displayMessage, 2000, BUBBLE1, "hide");
 setTimeout(displayMessage, 2000, LEFT1, "display");
 setTimeout(displayMessage, 3000, BUBBLE2, "hide");
@@ -27,3 +33,5 @@ setTimeout(displayMessage, 12500, BUBBLE3, "hide");
 setTimeout(displayMessage, 12500, LEFT3, "display");
 setTimeout(displayMessage, 13500, PRICING1, "display");
 setTimeout(displayMessage, 13500, PRICING2, "display");
+setTimeout(phoneSize, 14500, "scaleUp");
+setTimeout(phoneSize, 14500, "scaleDown");

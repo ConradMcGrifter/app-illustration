@@ -159,12 +159,6 @@ li {
           flex-direction: row;
 }
 
-@media only screen and (min-width: 1100px) {
-  .wrap {
-    padding: 0;
-  }
-}
-
 .wrap .top-background-piece {
   width: 50%;
   height: 60%;
@@ -487,8 +481,8 @@ li {
 }
 
 .phone {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   height: 64rem;
   background: white;
   width: 29rem;
@@ -497,6 +491,21 @@ li {
   -webkit-box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
           box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
   padding: 1.25rem;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+@media only screen and (min-width: 1100px) {
+  .phone.scaleDown {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .phone.scaleUp {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
 }
 
 .phone .phone__top-piece {

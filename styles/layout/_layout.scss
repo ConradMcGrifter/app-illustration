@@ -1,15 +1,10 @@
 .wrap {
-    // outline: solid red 1px;
     position: relative;
     width: 100%;
     max-width: 1440px;
     min-height: 100%;
     padding: 3rem;
     @include flexCenter;
-
-    @include desktopSize {
-        padding: 0;
-    }
 
     .top-background-piece {
         width: 50%;
