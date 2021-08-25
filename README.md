@@ -70,5 +70,6 @@ const proudOfThisFunc = () => {
 
 -   [how to make arrows with css](https://www.w3schools.com/howto/howto_css_arrows.asp)
 -   [animated phone message typing bubble](https://codepen.io/s8770125/pen/yDmrb?editors=1100)
+-   [how to add parameters to setTimeout method](https://stackoverflow.com/questions/1190642/how-can-i-pass-a-parameter-to-a-settimeout-callback) - In modern browsers (ie IE11 and beyond), the "setTimeout" receives a third parameter that is sent as parameter to the internal function at the end of the timer.
 
 ## Acknowledgments

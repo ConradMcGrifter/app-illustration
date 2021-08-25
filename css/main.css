@@ -176,7 +176,12 @@ body {
   font-weight: 500;
 }
 
+.shared-chat-styles.fadeIn {
+  display: block;
+}
+
 .chat__left-chat {
+  display: none;
   background: #e8d9f7;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
 }
@@ -190,6 +195,7 @@ body {
 }
 
 .chat__right-chat {
+  display: none;
   background: white;
   border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
   margin-left: auto;
@@ -214,6 +220,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
+}
+
+.chat__pricing.fadeIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .chat__pricing .pricing__circle {
@@ -235,7 +248,7 @@ body {
 }
 
 .chat__type-input {
-  margin-top: 2rem;
+  margin-top: auto;
   background: white;
   padding: 0.5rem;
   border-radius: 999px;
@@ -264,7 +277,7 @@ body {
 .phone {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  min-height: 60rem;
+  height: 64rem;
   background: white;
   width: 29rem;
   border-radius: 4rem;
@@ -288,6 +301,7 @@ body {
 .phone .phone__content--wrap {
   background: #f5f3f7;
   border-radius: 3rem;
+  height: 100%;
 }
 
 .phone .phone__content--wrap .content__header {
@@ -375,15 +389,28 @@ body {
 }
 
 .phone .phone__content--wrap .content__chat--wrap {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0 1rem 1rem 1rem;
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures {
+  display: none;
   margin-top: 2rem;
   margin-left: auto;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures.fadeIn {
+  display: block;
 }
 
 .phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img {
