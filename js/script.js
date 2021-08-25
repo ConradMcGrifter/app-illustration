@@ -14,20 +14,16 @@ const displayMessage = (element, className) => {
     element.classList.toggle(className);
 };
 
-// const hideMessage = (element) => {
-//     element.classList.toggle("hide");
-// };
-
 setTimeout(displayMessage, 2000, BUBBLE1, "hide");
-setTimeout(displayMessage, 2000, LEFT1, "fadeIn");
+setTimeout(displayMessage, 2000, LEFT1, "display");
 setTimeout(displayMessage, 3000, BUBBLE2, "hide");
 setTimeout(displayMessage, 5000, BUBBLE2, "hide");
-setTimeout(displayMessage, 5000, LEFT2, "fadeIn");
-setTimeout(displayMessage, 6500, DOG_PICS, "fadeIn");
-setTimeout(displayMessage, 6500, RIGHT1, "fadeIn");
-setTimeout(displayMessage, 8000, RIGHT2, "fadeIn");
+setTimeout(displayMessage, 5000, LEFT2, "display");
+setTimeout(displayMessage, 6500, DOG_PICS, "display");
+setTimeout(displayMessage, 6500, RIGHT1, "display");
+setTimeout(displayMessage, 8000, RIGHT2, "display");
 setTimeout(displayMessage, 9000, BUBBLE3, "hide");
 setTimeout(displayMessage, 11500, BUBBLE3, "hide");
-setTimeout(displayMessage, 11500, LEFT3, "fadeIn");
-setTimeout(displayMessage, 12500, PRICING1, "fadeIn");
-setTimeout(displayMessage, 12500, PRICING2, "fadeIn");
+setTimeout(displayMessage, 11500, LEFT3, "display");
+setTimeout(displayMessage, 12500, PRICING1, "display");
+setTimeout(displayMessage, 12500, PRICING2, "display");

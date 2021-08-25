@@ -260,7 +260,7 @@ li {
 
 .info__wrap .info__p {
   margin: 2rem auto 0 auto;
-  line-height: 1.6;
+  line-height: 1.8;
   max-width: 30ch;
   color: #a39daa;
   font-weight: 500;
@@ -287,13 +287,25 @@ li {
   font-weight: 500;
 }
 
-.shared-chat-styles.fadeIn {
+.shared-chat-styles.display {
   display: block;
+}
+
+.content__chat--container {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .chat__left-chat {
   display: none;
-  background: #e8d9f7;
+  background: rgba(232, 217, 247, 0.692);
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
 }
 
@@ -337,7 +349,7 @@ li {
   overflow: hidden;
 }
 
-.chat__pricing.fadeIn {
+.chat__pricing.display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,6 +373,28 @@ li {
   margin-left: auto;
   margin-right: 1rem;
   color: white;
+}
+
+.chat__dog-pictures {
+  display: none;
+  margin-top: 2rem;
+  margin-left: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.chat__dog-pictures.display {
+  display: block;
+}
+
+.chat__dog-pictures .dog__img {
+  width: 5rem;
+  border-radius: 1.2rem;
+}
+
+.chat__dog-pictures .dog__img + .dog__img {
+  margin-left: 1rem;
 }
 
 .chat__type-input {
@@ -564,39 +598,5 @@ li {
 
 .phone .phone__content--wrap .content__header .header--wrap .header__dots .dot + .dot {
   margin-top: 0.25rem;
-}
-
-.phone .phone__content--wrap .content__chat--wrap {
-  height: 85%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0 1rem 1rem 1rem;
-}
-
-.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures {
-  display: none;
-  margin-top: 2rem;
-  margin-left: auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures.fadeIn {
-  display: block;
-}
-
-.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img {
-  width: 5rem;
-  border-radius: 1.2rem;
-}
-
-.phone .phone__content--wrap .content__chat--wrap .chat__dog-pictures .dog__img + .dog__img {
-  margin-left: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
