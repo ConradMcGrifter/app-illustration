@@ -99,3 +99,38 @@
         background: color(text--main-heading);
     }
 }
+
+.typing-bubble {
+    margin-top: 1rem;
+    width: max-content;
+    padding: 0.5em;
+    border-radius: 999px;
+    background: rgb(212, 212, 212);
+    display: flex;
+    .bubble__dot {
+        width: 0.75rem;
+        height: 0.75rem;
+        background: rgba(150, 150, 150, 0.4);
+        border-radius: 999px;
+
+        & + .bubble__dot {
+            margin-left: 0.25rem;
+        }
+    }
+
+    .one {
+        animation: cycleOne 1s ease-in-out infinite;
+    }
+
+    .two {
+        animation: cycleTwo 1s ease-in-out infinite;
+    }
+
+    .three {
+        animation: cycleThree 1s ease-in-out infinite;
+    }
+
+    &.hide {
+        display: none;
+    }
+}
