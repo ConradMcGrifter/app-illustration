@@ -62,7 +62,7 @@
     .pricing__circle {
         border: solid rgba(255, 255, 255, 0.493) 1px;
         border-radius: 999px;
-        padding: 0.75rem;
+        padding: 0.7rem;
     }
 
     .pricing__p {
@@ -70,6 +70,7 @@
         margin-left: 1rem;
         font-size: 1.2rem;
         white-space: nowrap;
+        font-weight: 500;
     }
 
     .pricing__price {
