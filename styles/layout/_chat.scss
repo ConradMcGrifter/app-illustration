@@ -44,7 +44,7 @@
 }
 
 .chat__pricing {
-    max-width: 70%;
+    width: 70%;
     @include linearGradientToRight;
     border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
     padding: 1rem;
@@ -52,6 +52,8 @@
     display: flex;
     align-items: center;
     display: none;
+    animation: slideIn 0.25s ease-in-out;
+    overflow: hidden;
 
     &.fadeIn {
         display: flex;
@@ -67,6 +69,7 @@
         color: white;
         margin-left: 1rem;
         font-size: 1.2rem;
+        white-space: nowrap;
     }
 
     .pricing__price {

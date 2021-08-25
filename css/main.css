@@ -88,6 +88,24 @@
   }
 }
 
+@-webkit-keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
 html {
   height: 100%;
   -webkit-box-sizing: border-box;
@@ -301,7 +319,7 @@ li {
 }
 
 .chat__pricing {
-  max-width: 70%;
+  width: 70%;
   background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff)) no-repeat;
   background: linear-gradient(to right, #e942ff, #8838ff) no-repeat;
   border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
@@ -314,6 +332,9 @@ li {
       -ms-flex-align: center;
           align-items: center;
   display: none;
+  -webkit-animation: slideIn 0.25s ease-in-out;
+          animation: slideIn 0.25s ease-in-out;
+  overflow: hidden;
 }
 
 .chat__pricing.fadeIn {
@@ -332,6 +353,7 @@ li {
   color: white;
   margin-left: 1rem;
   font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .chat__pricing .pricing__price {

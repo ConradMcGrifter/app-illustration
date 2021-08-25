@@ -93,3 +93,12 @@ $font-stack: "Rubik", sans-serif;
         background: rgba(150, 150, 150, 1);
     }
 }
+
+@keyframes slideIn {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}

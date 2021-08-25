@@ -29,5 +29,5 @@ setTimeout(displayMessage, 8000, RIGHT2, "fadeIn");
 setTimeout(displayMessage, 9000, BUBBLE3, "hide");
 setTimeout(displayMessage, 11000, BUBBLE3, "hide");
 setTimeout(displayMessage, 11000, LEFT3, "fadeIn");
-setTimeout(displayMessage, 13000, PRICING1, "fadeIn");
-setTimeout(displayMessage, 13000, PRICING2, "fadeIn");
+setTimeout(displayMessage, 12500, PRICING1, "fadeIn");
+setTimeout(displayMessage, 12500, PRICING2, "fadeIn");
