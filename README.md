@@ -2,22 +2,6 @@
 
 This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
--   [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,40 +13,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [LINK](https://github.com/ConradMcGrifter/app-illustration)
+-   Live Site URL: [LINK](https://conradmcgrifter.github.io/app-illustration/)
 
 ## My process
 
 ### Built with
 
 -   Semantic HTML5 markup
--   CSS custom properties
 -   Flexbox
--   CSS Grid
 -   Mobile-first workflow
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-    color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-    console.log("🎉");
-};
-```
+-   I learned about setTimeout javaScript method and I learned a little bit more about css animations. I normally use transition property to animate things but the control you get with keyframes was neccessary for animating the chat bubble. I also used margin: auto to position certain elements
 
 ### Continued development
 
@@ -71,5 +39,3 @@ const proudOfThisFunc = () => {
 -   [how to make arrows with css](https://www.w3schools.com/howto/howto_css_arrows.asp)
 -   [animated phone message typing bubble](https://codepen.io/s8770125/pen/yDmrb?editors=1100)
 -   [how to add parameters to setTimeout method](https://stackoverflow.com/questions/1190642/how-can-i-pass-a-parameter-to-a-settimeout-callback) - In modern browsers (ie IE11 and beyond), the "setTimeout" receives a third parameter that is sent as parameter to the internal function at the end of the timer.
-
-## Acknowledgments
