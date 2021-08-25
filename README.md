@@ -32,8 +32,6 @@ Users should be able to:
 
 -   I learned about setTimeout javaScript method and I learned a little bit more about css animations. I normally use transition property to animate things but the control you get with keyframes was neccessary for animating the chat bubble. I also used margin: auto to position certain elements
 
-### Continued development
-
 ### Useful resources
 
 -   [how to make arrows with css](https://www.w3schools.com/howto/howto_css_arrows.asp)
