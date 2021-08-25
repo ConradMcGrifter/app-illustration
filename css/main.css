@@ -485,7 +485,7 @@ li {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  padding: 0.5em;
+  padding: 0.7em 0.85em;
   border-radius: 999px;
   background: #d4d4d4;
   display: -webkit-box;
@@ -494,14 +494,14 @@ li {
 }
 
 .typing-bubble .bubble__dot {
-  width: 0.75rem;
-  height: 0.75rem;
+  width: 0.85rem;
+  height: 0.85rem;
   background: rgba(150, 150, 150, 0.4);
   border-radius: 999px;
 }
 
 .typing-bubble .bubble__dot + .bubble__dot {
-  margin-left: 0.25rem;
+  margin-left: 0.3rem;
 }
 
 .typing-bubble .one {
