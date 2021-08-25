@@ -199,6 +199,27 @@ li {
   }
 }
 
+@media only screen and (min-width: 1100px) {
+  .wrap .darken {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.521);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  .wrap .darken.fadeOut {
+    opacity: 0;
+  }
+  .wrap .darken.fadeIn {
+    opacity: 1;
+  }
+}
+
 .content--container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,8 +502,8 @@ li {
 }
 
 .phone {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
   height: 64rem;
   background: white;
   width: 29rem;
@@ -495,6 +516,8 @@ li {
   transition: -webkit-transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  position: relative;
+  z-index: 999;
 }
 
 @media only screen and (min-width: 1100px) {

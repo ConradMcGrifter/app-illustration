@@ -19,19 +19,26 @@ const phoneSize = (className) => {
     PHONE.classList.toggle(className);
 };
 
+const tintControl = (className) => {
+    document.querySelector(".darken").classList.toggle(className);
+};
+
+setTimeout(tintControl, 1000, "fadeIn");
 setTimeout(phoneSize, 1000, "scaleUp");
-setTimeout(displayMessage, 2000, BUBBLE1, "hide");
-setTimeout(displayMessage, 2000, LEFT1, "display");
-setTimeout(displayMessage, 3000, BUBBLE2, "hide");
-setTimeout(displayMessage, 5000, BUBBLE2, "hide");
-setTimeout(displayMessage, 5000, LEFT2, "display");
-setTimeout(displayMessage, 7000, DOG_PICS, "display");
-setTimeout(displayMessage, 7000, RIGHT1, "display");
-setTimeout(displayMessage, 8500, RIGHT2, "display");
-setTimeout(displayMessage, 10000, BUBBLE3, "hide");
-setTimeout(displayMessage, 12500, BUBBLE3, "hide");
-setTimeout(displayMessage, 12500, LEFT3, "display");
-setTimeout(displayMessage, 13500, PRICING1, "display");
-setTimeout(displayMessage, 13500, PRICING2, "display");
-setTimeout(phoneSize, 14500, "scaleUp");
-setTimeout(phoneSize, 14500, "scaleDown");
+setTimeout(displayMessage, 2500, BUBBLE1, "hide");
+setTimeout(displayMessage, 2500, LEFT1, "display");
+setTimeout(displayMessage, 3500, BUBBLE2, "hide");
+setTimeout(displayMessage, 5500, BUBBLE2, "hide");
+setTimeout(displayMessage, 5500, LEFT2, "display");
+setTimeout(displayMessage, 7500, DOG_PICS, "display");
+setTimeout(displayMessage, 7500, RIGHT1, "display");
+setTimeout(displayMessage, 9000, RIGHT2, "display");
+setTimeout(displayMessage, 10500, BUBBLE3, "hide");
+setTimeout(displayMessage, 13000, BUBBLE3, "hide");
+setTimeout(displayMessage, 13000, LEFT3, "display");
+setTimeout(displayMessage, 14000, PRICING1, "display");
+setTimeout(displayMessage, 14000, PRICING2, "display");
+setTimeout(phoneSize, 15000, "scaleUp");
+setTimeout(phoneSize, 15000, "scaleDown");
+setTimeout(tintControl, 15500, "fadeIn");
+setTimeout(tintControl, 15500, "fadeOut");

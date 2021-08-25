@@ -1,5 +1,5 @@
 .phone {
-    transform: scale(0.95);
+    transform: scale(0.9);
     height: 64rem;
     background: white;
     width: 29rem;
@@ -8,6 +8,8 @@
     box-shadow: 0 25px 30px rgba(56, 56, 56, 0.212);
     padding: 1.25rem;
     transition: transform 1s ease-in-out;
+    position: relative;
+    z-index: 999;
 
     @include desktopSize {
         &.scaleDown {
