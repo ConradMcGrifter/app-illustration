@@ -313,6 +313,8 @@ li {
   width: max-content;
   padding: 1rem;
   margin-top: 1rem;
+  -webkit-animation: fadeIn 0.15s ease-in-out;
+          animation: fadeIn 0.15s ease-in-out;
 }
 
 .shared-chat-styles .shared-text-styles {
