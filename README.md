@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [LINK](https://github.com/ConradMcGrifter/app-illustration)
+-   Solution URL: [LINK](https://www.frontendmentor.io/solutions/app-illustration-with-animated-chat-mobile-first-workflow-rcCI9-w8L)
 -   Live Site URL: [LINK](https://conradmcgrifter.github.io/app-illustration/)
 
 ## My process
